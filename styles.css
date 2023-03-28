@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("./images/bgimg.jpg");
+}
+*{
+    color: white;
+}
+/* header */
+.header{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    background-color: rgba(0,0,0,0.7);
+    height: 50px;
+    justify-content: center;
+}
+
+
+/* home page */
+.page{
+    margin-top: 30px;
+    min-height: 83vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 130px;
+}
+/* drums */
+.drums{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+/* bgimages in drums */
+.drum1{
+    background-image: url("./images/drum1.jpg");
+}
+.drum2{
+    background-image: url("./images/drum2.jpg");
+}
+.drum3{
+    background-image: url("./images/drum3.jpg");
+}
+.drum4{
+    background-image: url("./images/drum4.jpg");
+}
+.drum5{
+    background-image: url("./images/drum2.jpg");
+}
+.drum6{
+    background-image: url("./images/drum6.png");
+}
+.drum{
+    border: 1px solid white;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* footer */
+.footer{
+    background-color: rgba(0,0,0,0.7);
+    height: 25px;
+    text-align: center;
+    margin-bottom: 0;
+}
